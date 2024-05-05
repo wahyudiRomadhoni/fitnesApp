@@ -4,9 +4,12 @@ import Header from '../components/Header';
 
 export default function About() {
     return (
-      <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+      <View style={{flex:1, justifyContent: 'center', alignItems: 'center' }}>
         <Header />
+        <View style={{flex:1, justifyContent: 'center', alignItems: 'center' }}>
+
         <Text>Aplikasi ini dibuat agar seseorang bersemangat dan teratur dalam berolahraga</Text>
+        </View>
       </View>
     );
   };

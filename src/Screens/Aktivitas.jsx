@@ -5,7 +5,7 @@ import Header from '../components/Header'
 
 export default function Aktivitas() {
   return (
-    <View>
+    <View style={{padding: 20}}>
       <Header />
       <Text style={styles.Aktivitas}>Aktivitas</Text>
     </View>
