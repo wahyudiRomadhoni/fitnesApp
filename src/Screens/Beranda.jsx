@@ -8,11 +8,11 @@ import Header from '../components/Header';
 
 export default function Beranda() {
     return (
-      <ScrollView contentContainerStyle={{padding:20}}>
+      <ScrollView contentContainerStyle={{padding:15}}>
         <Header />
-        <Text style={{fontWeight:'bold', fontSize:25, marginTop:20, color:"gray"}}>Latihan</Text>
+        <Text style={{fontWeight:'bold', fontSize:25, marginTop:10, color:"gray"}}>Latihan</Text>
         <View>
-          <View style={{paddingTop:35, borderColor:"black", borderBottomWidth:1, width:90}}>
+          <View style={{paddingTop:25, borderColor:"black", borderBottomWidth:1, width:90}}>
           <Text style={{fontSize:17,}}>Untuk anda</Text>
           </View>
         </View>
@@ -35,3 +35,4 @@ export default function Beranda() {
       </ScrollView>
     );
   };
+  

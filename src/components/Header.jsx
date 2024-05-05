@@ -10,7 +10,7 @@ export default function Header() {
         <View style={{backgroundColor:"#FCFFE0", padding:20, width:20, height:20, justifyContent:"center", alignItems:"center", borderRadius:50,}}>
         <FontAwesomeIcon icon={faUser} />
         </View>
-        <View style={{flexDirection:'row', gap:5,}}>
+        <View style={{flexDirection:'row', gap:5, paddingTop:12,}}>
         <FontAwesomeIcon size={25} icon={faBookmark} />
         <FontAwesomeIcon size={25} icon={faEnvelope} />
         </View>
