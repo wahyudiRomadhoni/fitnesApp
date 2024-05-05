@@ -4,7 +4,7 @@ import Header from '../components/Header'
 
 export default function Aktivitas() {
   return (
-    <View>
+    <View style={{padding: 20}}>
       <Header />
       <ImageBackground source={require("../assets/buatakt.jpg")} />
     </View>
